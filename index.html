@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- Landing Page | Houses basic info and start to the login system -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Play Spontaneous - Recreational Sports Management</title>
+        <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Bulma Version 0.9.0-->
+        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/hero.css">
+        <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    </head>
+    <body>
+        <section class="hero is-info is-medium is-bold">
+            <div class="hero-head has-background-link">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item is-bold is-medium is-size-3 is-family-monospace" href="index.html">
+                                PlaySpontaneous
+                            </a>
+                            <span class="navbar-burger burger has-background-link" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <div class="tabs is-right">
+                                    <ul>
+                                        <li class="is-active"><a  href="index.html">Home</a></li>
+                                    </ul>
+                                    <span class="navbar-item">
+                                        <a class="button is-white is-outlined mr-0" href="html/createAccount.php">
+                                            <span title="Login Page">Register</span>
+                                        </a>
+                                    </span>
+                                    <span class="navbar-item">
+                                        <a class="button is-white is-outlined ml-0" href="html/login.php">
+                                            <span title="Login Page">Login</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <script type="text/javascript">
+                    (function(){
+                        var burger = document.querySelector('.burger');
+                        var nav = document.querySelector('#' + burger.dataset.target);
+
+                        burger.addEventListener('click', function() {
+                            burger.classList.toggle('is-active');
+                            nav.classList.toggle('is-active');
+                        })
+                    })();
+                </script>
+            </div>
+            <div class="hero-body has-background-link">
+                <div class="container has-text-centered">
+                    <h1 class="title">
+                    The New Way to Organize Sporting Events
+                    </h1>
+                    <h2 class="subtitle">
+                    PlaySpontanous is an innovative way to organize and plan sporting events. Easily organize, manage, and maintain groups of players in order to continue playing sports instead of sitting at the sideline!
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <div class="box cta">
+            <p class="has-text-centered">
+                 Never again will you miss a local sporting event!
+            </p>
+        </div>
+        <section class="container">
+            <div class="columns features ">
+                <div class="column is-4 ">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-calendar is-size-1 mt-4"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4 class="has-text-centered is-size-2-touch is-size-3">Organize</h4>
+                                <p>Create groups in which to invite other local players. Easily setup events at locations for strong group communications.</p>
+                                <p><a href="#">Create</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-bell-o is-size-1 mt-4"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4 class="has-text-centered is-size-2-touch is-size-3">Notify</h4>
+                                <p>Notifications are sent to players before each event is to be held. This can be done automatically once players have accepted the event invitations.</p>
+                                <p><a href="#">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-futbol-o is-size-1 mt-4"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4 class="has-text-centered is-size-2-touch is-size-3"> Play</h4>
+                                <p>Create events and then let PlaySpontaneous do the rest. Focus more on playing instead of setting up events.</p>
+                                <p><a href="#">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
